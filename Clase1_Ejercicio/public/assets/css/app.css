@@ -1,0 +1,169 @@
+/* AJUSTES GENERALES */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Bebas Neue', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* UTILIDADES */
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-inline: auto;
+}
+.text-center {
+    text-align: center;
+}
+.btn-1 {
+    border: 0.1rem solid #777;
+    border-radius: 5%;
+    color: #fff;
+    background-color: rgb(134, 128, 194);
+    font-size: 1.4rem;
+    padding: 0.7rem 2rem;
+}
+.btn-1:hover {
+    background-color: rgb(165, 161, 212);
+}
+
+/* AJUSTES: PÁGINA BASE */
+/* HEADER */
+.header-base h1{
+    margin-top: 5rem;
+}
+.header-base span {
+    color: rgb(134, 128, 194);
+}
+
+/* NAV */
+.contenedor-navegacion {
+    border-top: 0.1rem solid #b1b1b1;
+    border-bottom: 0.1rem solid #b1b1b1;
+}
+
+.nav-principal {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-principal a{
+    padding: 0 0.8rem;
+}
+
+/* MAIN */
+.main-base {
+    padding: 5rem 0;
+}
+.base-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.base-grid .base-img-flex img {
+    height: 55rem;
+}
+.base-img-flex {
+    display: flex;
+    justify-content: center;
+}
+.base-grid div h2 {
+    margin-bottom: 3rem;
+}
+
+/* Footer */
+.footer-base {
+    border-top: 0.1rem solid #b1b1b1;
+    padding-top: 5rem;
+}
+.footer-objetos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.footer-objetos div {
+    display: flex;
+    justify-content: center;
+}
+.footer-objetos div i{
+    font-size: 3rem;
+}
+.footer-base .derechos {
+    padding-top: 5rem;
+}
+
+/* PÁGINA CONTACTO */
+.contacto-info{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.contacto-form{
+    padding: 5rem 3rem 0rem 3rem;
+}
+.contacto-form h3{
+    margin-bottom: 2rem;
+    color: rgb(134, 128, 194);
+}
+.contacto-boton {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+/* PÁGINA NOSOTROS */
+.nosotros-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.nosotros-agradecimiento {
+    padding: 0 8rem;
+    padding-top: 5rem;
+}
+
+.nosotros-agradecimiento h2 {
+    margin-bottom: 2rem;
+}
